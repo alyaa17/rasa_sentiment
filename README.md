@@ -24,6 +24,20 @@ __Mac Os__
 
 `pip --version` # pip 19.2.3
 
+### Клонирование репозитория
+
+Склонируйте репозиторий с Github
+
+`git clone https://github.com/alyaa17/rasa_sentiment.git`
+
+### Установка зависимостей
+
+`cd rasa_sentiment`
+`pip install -r requirements.txt`
+
+Перейдите в директорию проекта и установите необходимые зависимости из файла requirements.txt:
+
+
 ## Взаимодействие с ботом
 Запустите сервер действий, чтобы бот мог их обрабатывать:
 
