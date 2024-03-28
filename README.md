@@ -26,7 +26,7 @@ __Mac Os__
 
 ### Клонирование репозитория
 
-Склонируйте репозиторий с Github
+Склонируйте репозиторий с Github:
 
 `git clone https://github.com/alyaa17/rasa_sentiment.git`
 
@@ -54,5 +54,5 @@ __Mac Os__
 
 Чтобы выйти из него введите:
 
-`/stop'
+`//stop'
 </div>
