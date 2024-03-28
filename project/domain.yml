@@ -1,0 +1,28 @@
+version: "3.1"
+
+intents:
+  - greet_passengers
+  - waiting_again
+  - wishes_to_passengers
+  - food
+  - place
+  - time_department
+  - ready_department
+  - speed_limit
+  - brakes_tested
+  - in_train
+  - out_of_scope
+
+
+actions:
+  - action_define_phrase
+
+
+responses:
+    utter_out_of_scope:
+      - text: "Извините, я не могу распознать эту фразу."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
