@@ -22,7 +22,7 @@ __Mac Os__
 
 `python --version` # Python 3.8
 
-`pip --version` # pip 19.2.3
+`pip --version` # pip 21.0
 
 ### Клонирование репозитория
 
