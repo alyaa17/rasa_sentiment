@@ -30,13 +30,28 @@ __Mac Os__
 
 `git clone https://github.com/alyaa17/rasa_sentiment.git`
 
+### venv
+
+__Для Windows:__
+
+`python -m venv C:\Users\Имя_пользователя\virtual_environment`
+
+`C:\Users\Имя_пользователя\virtual_environment\Scripts\activate`
+
+__Для Mac и Linux:__
+
+`python3 -m venv virtual_environment`
+
+`source virtual_environment/bin/activate`
+
+
 ### Установка зависимостей
 
 Перейдите в директорию проекта и установите необходимые зависимости из файла requirements.txt:
 
 `cd rasa_sentiment`
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt --no-cache-dir`
 
 ### Обучение модели
 
